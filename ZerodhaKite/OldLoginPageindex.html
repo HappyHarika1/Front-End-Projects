@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login to DevGnan Trade Platform</title>
+    <!-- <link rel="stylesheet" href="Day1.css" /> -->
+
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        color: grey;
+      }
+      h2 {
+        color: grey;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        background-color: #f8f8f8;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        text-align: center;
+        height: 100vh;
+        width: 100%;
+        flex-direction: row;
+      }
+
+      form input {
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+
+      .login-box {
+        background-color: white;
+        width: 350px;
+        border-radius: 8px;
+        text-align: center;
+        padding: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .extra {
+        background-color: #ae445a;
+        width: 350px;
+        border-radius: 8px;
+        text-align: center;
+        padding: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+
+      form .username {
+        margin-top: 25px;
+      }
+
+      form p {
+        color: grey;
+        font-size: 15px;
+      }
+
+      .brandName {
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+        color: #ae445a;
+      }
+
+      .tagline {
+        margin: 5px;
+        padding: 0;
+      }
+
+      form button {
+        background-color: #ae445a;
+        width: 180px;
+        margin: 5px;
+        padding: 5px;
+        color: white;
+      }
+
+      form input ::placeholder {
+        color: grey;
+      }
+
+      .logo {
+        width: 200px;
+        height: 200px;
+        margin: 0;
+      }
+
+      .icons {
+        margin-top: 15px;
+      }
+
+      .parent {
+        margin: 15px;
+        color: #cccccc;
+      }
+
+      .noAccount {
+        color: #ae445a;
+      }
+
+      .footer {
+        font-size: 10px;
+        margin: 10px;
+      }
+
+      .market-status {
+        margin-bottom: 8px;
+        color: white;
+        font-size: 20px;
+      }
+
+      .app {
+        margin-bottom: 5px;
+        color: white;
+        font-size: 20px;
+      }
+
+      .contact {
+        margin-bottom: 8px;
+        color: white;
+        font-size: 20px;
+      }
+
+      .page-wrapper {
+        min-height: 100vh;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .footerChild {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="container">
+        <div class="login-box">
+          <img src="Newlogo.png" class="logo" />
+          <p class="brandName">Login To DEV Trading</p>
+          <p class="tagline">Trading Made Easy</p>
+
+          <form>
+            <div class="username">
+              <label for="userid"></label>
+              <input
+                type="text"
+                id="userid"
+                name="userid"
+                placeholder="Phone or UserID"
+                minlength="7"
+                maxlength="14"
+                autocomplete="on"
+                required
+              />
+            </div>
+
+            <div class="password">
+              <label for="password"></label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Password"
+                minlength="10"
+                maxlength="10"
+                autocomplete="on"
+                required
+              />
+            </div>
+
+            <button type="submit">Login</button> <br />
+            <br />
+            <p>Forgot UserID or Password?</p>
+          </form>
+        </div>
+
+        <div class="extra">
+          <div>
+            <h2 class="market-status">Market Status</h2>
+            <p class="market-status">Open: 9:15 AM — Close: 3:30 PM</p>
+            <p class="market-status">Status:Open</p>
+          </div>
+          <br />
+          <br />
+
+          <div>
+            <h2 class="app">Download</h2>
+            <h2 class="app">Mobile App Here</h2>
+          </div>
+          <br />
+          <br />
+
+          <div>
+            <h3 class="contact">Contact Us</h3>
+            <p class="contact">9999999999</p>
+            <p class="contact">sampleemail@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footerChild">
+        <div class="icons">
+          <img
+            src="https://kite.zerodha.com/static/images/android.svg"
+            alt="Play Store Image"
+          />
+          <img
+            src="https://kite.zerodha.com/static/images/apple.svg"
+            alt="Apple Icon Image"
+          />
+        </div>
+
+        <div>
+          <h2 class="parent">DEVGNAN</h2>
+          <p class="noAccount">Don't have an account? Signup now!</p>
+        </div>
+
+        <footer>
+          <div class="footer">
+            <p>Zerodha Broking Limited: Member of NSE, BSE ‐ SEBI Reg. no.</p>
+            <br />
+            <p>INZ000031633, CDSL ‐ SEBI Reg. no. IN-DP-431-2019 | Zerodha</p>
+            <br />
+            <p>
+              Commodities Pvt. Ltd.: MCX ‐ SEBI Reg. no. INZ000038238 | Smart
+            </p>
+            <br />
+            <p>Online Dispute Resolution | SEBI SCORES</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
