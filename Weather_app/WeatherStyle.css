@@ -1,0 +1,53 @@
+/* Base CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #c8d7d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  height: 100vh;
+}
+
+.card {
+  width: 90%;
+  max-width: 400px;
+  background-color: white;
+
+  /* background: linear-gradient(to right, #2c3e50, #000000); */
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  background-color: #424242;
+  color: white;
+  height: 50px;
+  border-radius: 30px;
+  text-align: center;
+  padding: 10px 25px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+  margin: 27px 27px;
+}
+
+.search input ::placeholder {
+  color: white;
+}

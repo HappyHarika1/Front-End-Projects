@@ -1,0 +1,133 @@
+* {
+  font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  color: grey;
+}
+h2 {
+  color: grey;
+}
+
+body {
+  background-color: #f8f8f8;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+form input {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.login-box {
+  background-color: white;
+  width: 350px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.extra {
+  background-color: #ae445a;
+  width: 350px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+form .username {
+  margin-top: 25px;
+}
+
+form p {
+  color: grey;
+  font-size: 15px;
+}
+
+.brandName {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  color: #ae445a;
+}
+
+.tagline {
+  margin: 5px;
+  padding: 0;
+}
+
+form button {
+  background-color: #ae445a;
+  width: 180px;
+  margin: 5px;
+  padding: 5px;
+  color: white;
+}
+
+form input ::placeholder {
+  color: grey;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+}
+
+.icons {
+  margin-top: 15px;
+}
+
+.parent {
+  margin: 15px;
+  color: #cccccc;
+}
+
+.noaccount {
+  color: #ae445a;
+}
+
+.footer {
+  font-size: 10px;
+  margin: 10px;
+}
+
+.market-status {
+  margin-bottom: 8px;
+  color: white;
+  font-size: 20px;
+}
+
+.app {
+  margin-bottom: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+.contact {
+  margin-bottom: 8px;
+  color: white;
+  font-size: 20px;
+}
