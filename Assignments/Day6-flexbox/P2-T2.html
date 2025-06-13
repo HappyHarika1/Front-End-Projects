@@ -123,6 +123,31 @@
         justify-content: center;
         text-align: center;
       }
+
+      @media (max-width: 768px) {
+        body {
+          font-size: 18px;
+        }
+
+        .page-container {
+          padding: 20px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        body {
+          font-size: 14px;
+        }
+
+        .page-container {
+          padding: 10px;
+          margin: 0;
+        }
+        .login-btn {
+          padding: 10px 20px;
+          font-size: 16px;
+        }
+      }
     </style>
   </head>
   <body>
@@ -130,9 +155,7 @@
       <!-- Header with logo -->
       <header class="header">
         <div class="logo-section">
-          <h1 class="brand-name">
-            Kite (Without Adding Responsive Behaviour @media)
-          </h1>
+          <h1 class="brand-name">Kite (Adding Responsive Behaviour @media)</h1>
           <p class="brand-tagline">by Zerodha</p>
         </div>
       </header>
