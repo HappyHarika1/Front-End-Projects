@@ -44,11 +44,12 @@ form input {
 .login-box {
   background-color: white;
   width: 100%;
+  min-width: 350px;
   max-width: 350px;
   border-top-left-radius: var(--border-radius);
   border-bottom-left-radius: var(--border-radius);
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   align-items: center;
 }
@@ -96,6 +97,7 @@ form button {
   padding: 5px;
   color: white;
   border-radius: var(--border-radius);
+  margin-bottom: 5px;
 }
 
 form input ::placeholder {
@@ -142,4 +144,8 @@ form input ::placeholder {
   margin-bottom: 8px;
   color: white;
   font-size: var(--font-base);
+}
+
+p {
+  margin-bottom: 10px;
 }
