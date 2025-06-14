@@ -3,8 +3,17 @@
   margin: 0;
   color: grey;
 }
+
+:root {
+  --primary-color: grey;
+  --font-base: 20px;
+  --spacing-sm: 0.5em;
+  --spacing-md: 1rem;
+  --border-radius: 8px;
+}
+
 h2 {
-  color: grey;
+  color: var(--primary-color);
 }
 
 body {
@@ -36,8 +45,10 @@ form input {
 
 .login-box {
   background-color: white;
-  width: 350px;
-  border-radius: 8px;
+  width: 100%;
+  max-width: 350px;
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
   text-align: center;
   padding: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -46,8 +57,10 @@ form input {
 
 .extra {
   background-color: #ae445a;
-  width: 350px;
-  border-radius: 8px;
+  width: 100%;
+  max-width: 350px;
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
   text-align: center;
   padding: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -62,12 +75,12 @@ form .username {
 }
 
 form p {
-  color: grey;
+  color: var(--primary-color);
   font-size: 15px;
 }
 
 .brandName {
-  font-size: 25px;
+  font-size: var(--font-base);
   margin: 0;
   padding: 0;
   color: #ae445a;
@@ -84,10 +97,11 @@ form button {
   margin: 5px;
   padding: 5px;
   color: white;
+  border-radius: var(--border-radius);
 }
 
 form input ::placeholder {
-  color: grey;
+  color: var(--primary-color);
 }
 
 .logo {
@@ -117,17 +131,17 @@ form input ::placeholder {
 .market-status {
   margin-bottom: 8px;
   color: white;
-  font-size: 20px;
+  font-size: var(--font-base);
 }
 
 .app {
   margin-bottom: 5px;
   color: white;
-  font-size: 20px;
+  font-size: var(--font-base);
 }
 
 .contact {
   margin-bottom: 8px;
   color: white;
-  font-size: 20px;
+  font-size: var(--font-base);
 }
