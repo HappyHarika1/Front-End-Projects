@@ -1,0 +1,48 @@
+<!-- Exercise 7: Three Columns Goal: Create three equal columns -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .three-column-grid {
+        /* YOUR TASK: Create 3 equal columns */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        border: 3px solid black;
+        height: 200px;
+        /* Visual column guides */
+        background-image: linear-gradient(
+            to right,
+            transparent 33%,
+            ddd 33%,
+            ddd 34%,
+            transparent 34%
+          ),
+          linear-gradient(
+            to right,
+            transparent 66%,
+            ddd 66%,
+            ddd 67%,
+            transparent 67%
+          );
+      }
+
+      .column {
+        background-color: lightblue;
+        border: 2px solid navy;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="three-column-grid">
+      <div class="column">Column 1</div>
+      <div class="column">Column 2</div>
+      <div class="column">Column 3</div>
+    </div>
+  </body>
+</html>

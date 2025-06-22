@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        display: flex;
+        height: 200px;
+        border: 3px solid black;
+        background-color: f0f0f0;
+      }
+
+      .box1 {
+        background-color: red;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid darkred;
+        /* YOUR TASK: Make this box take 1 part of space */
+        flex: 1;
+      }
+
+      .box2 {
+        background-color: green;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid darkgreen;
+        /* YOUR TASK: Make this box take 2 parts of space */
+        flex: 2;
+      }
+
+      .box3 {
+        background-color: blue;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid darkblue;
+        /* YOUR TASK: Make this box take 1 part of space */
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1">Box 1</div>
+      <div class="box2">Box 2 (bigger)</div>
+      <div class="box3">Box 3</div>
+    </div>
+  </body>
+</html>

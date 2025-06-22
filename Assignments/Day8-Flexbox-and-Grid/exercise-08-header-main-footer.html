@@ -1,0 +1,66 @@
+<!-- Exercise 8: Header, Main, Footer Layout 
+
+Goal: Create a classic website layout -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .page-layout {
+        /* YOUR TASK: Create header/main/footer layout */
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        height: 100vh;
+        border: 3px solid black;
+        /* Visual row guides */
+        background: linear-gradient(
+            to bottom,
+            transparent 15%,
+            #ddd 15%,
+            #ddd 16%,
+            transparent 16%
+          ),
+          linear-gradient(
+            to bottom,
+            transparent 85%,
+            #ddd 85%,
+            #ddd 86%,
+            transparent 86%
+          );
+      }
+
+      .header {
+        background-color: #333;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #666;
+      }
+
+      .main {
+        background-color: #f0f0f0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #ccc;
+      }
+
+      .footer {
+        background-color: #666;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #999;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-layout">
+      <div class="header">HEADER - Navigation & Logo</div>
+      <div class="main">MAIN CONTENT - This area grows to fill space</div>
+      <div class="footer">FOOTER - Copyright & Links</div>
+    </div>
+  </body>
+</html>
